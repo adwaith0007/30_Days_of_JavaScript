@@ -1,13 +1,15 @@
 var createHelloWorld = function() {
     return function(...args) {
-        return ("Hello World")
-        
+        return (
+            
+            console.log(  "Hello World")
+        )       
     }
 
 };
 
 
-console.log(createHelloWorld()()); 
+createHelloWorld()(); 
 
 
  
